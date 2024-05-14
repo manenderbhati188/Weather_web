@@ -111,5 +111,6 @@ body{
     box-shadow: 2px seagreen;
     font-size: 1.3rem;
     font-weight: 500;
+    cursor:pointer;
 }
 
