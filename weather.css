@@ -5,14 +5,17 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #1f1c1c;
+    background-image: url(https://backiee.com/static/wallpapers/560x315/172871.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .card{
-    width: 90%;
-    max-width: 500px;
-    min-width: 575px;
+    width: 50%;
+    height: 70%;
+    max-width:500px;
     color: #fff;
-    background:linear-gradient(135deg,rgb(78, 163, 147),rgb(160, 200, 199));
+    background:linear-gradient(135deg,rgb(16, 43, 38),rgb(13, 46, 45));
+    opacity: 0.9;
     margin: 100px auto 0;
     border-radius: 20px;
     padding: 40px 35px;
@@ -21,8 +24,8 @@ body{
 }
 .search{
     display: flex;
-    align-items:center;
     justify-content: space-between;
+    height: 40%;
 }
 
 .search input{
@@ -93,4 +96,19 @@ body{
     color: black;
     display: none;
 
+}
+.current-loc{
+    width:20%;
+    position: absolute;
+    left:50%;
+
+}
+.current-loc button{
+    height: 40px;
+    width: 100%;
+    transform: translate(-50%);
+    background-color: #ebfffc;
+    box-shadow: 2px seagreen;
+    font-size: 1.3rem;
+    font-weight: 500;
 }
